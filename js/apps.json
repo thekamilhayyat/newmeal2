@@ -1,0 +1,172 @@
+[
+
+
+  {
+    "id": "1",
+    "title": "Airlock",
+    "description": "Airlock USA® has been the trusted source for the auto body repair industry for over 30 years, offering superior service and quality products.",
+    "img": "images/portfolio/airlock.png",
+    "client": "Airlock",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2019",
+    "link": "http://kamilhayyat.com/airlock/"
+  },
+  {
+    "id": "2",
+    "title": "SEO",
+    "description": "Digital Media Management Company based in San Jose. We help the world’s leading brands in marketing, advertising, sales, commerce and research on SEO, Facebook, Twitter, LinkedIn, and other channels worldwide.",
+    "img": "images/portfolio/SEo.png",
+    "client": "SEO",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2019",
+    "link": "http://kamilhayyat.com/seo/"
+  },
+  {
+    "id": "3",
+    "title": "Eventia",
+    "description": "Eventia Event Managers have been creating captivating, quality environments for events – both personal and corporate – since they started out together. For them, managing an event is never a rocket science.",
+    "img": "images/portfolio/eventia.png",
+    "client": "Eventia",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2019",
+    "link": "http://kamilhayyat.com/eventia/"
+  },
+  {
+    "id": "4",
+    "title": "MarvelWeb",
+    "description": "Use,by you or one client, in a single end product which end users are not charged for.Use,by you or one client, in a single end product which end users are not chargedfro.",
+    "img": "images/portfolio/lms.png",
+    "client": "MarvelWeb",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2020",
+    "link": "http://kamilhayyat.com/MarvelWeb/"
+  },
+  {
+    "id": "5",
+    "title": "Nitrox School",
+    "description": "Nitrox School recorded Lectures from FLS online courses provide the oppurtunity for explicit explanations of a concept. Teachers will use Microsoft Team, screen casting software, or web conferencing software to record micro lectures. ",
+    "img": "images/portfolio/school.png",
+    "client": "Nitrox School",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2020",
+    "link": "http://kamilhayyat.com/NitroxSchool/"
+  },
+  {
+    "id": "6",
+    "title": "My Payments",
+    "description": "A payment gateway allows merchants to securely pass credit card information between the customer and the merchant and also between the merchant and the payment processor.",
+    "img": "images/portfolio/payment.png",
+    "client": "My Payments",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2020",
+    "link": "http://kamilhayyat.com/MyPayment/"
+  },
+  {
+    "id": "7",
+    "title": "Restaurants",
+    "description": "Let your customers order online for takeout, curbside pickup, delivery & more. There are no contracts and zero upfront costs. Plus, your direct online ordering site is custom designed FREE to match your brand!",
+    "img": "images/portfolio/resturant.png",
+    "client": "Restaurants",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2021",
+    "link": "http://kamilhayyat.com/restaurants/"
+  },
+  {
+    "id": "8",
+    "title": "Product Stats",
+    "description": "Statistics forms an important part of most sciences, helping researchers test hypotheses, confirm (or reject) theories, and arrive at reliable conclusions. The data generated from experiments and studies is never straightforward",
+    "img": "images/portfolio/stats.png",
+    "client": "Product Stats",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2019",
+    "link": "http://kamilhayyat.com/stats/"
+  },
+  {
+    "id": "9",
+    "title": "Product Review",
+    "description": "While there’s no need to limit yourself to just one review site, don’t feel like you need to target every site on this list. Instead, pursue the ones best aligned with the services you offer and your target audience",
+    "img": "images/portfolio/product.png",
+    "client": "Product Review",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2021",
+    "link": "http://kamilhayyat.com/Products/"
+  },
+  {
+    "id": "10",
+    "title": "Instructure education",
+    "description": "Instructure's educational software includes canvas lms, used by schools and universities worldwide. learn why instructure is a great place to work and to invest in.",
+    "img": "images/portfolio/education.png",
+    "client": "Instructure education",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2021",
+    "link": "http://kamilhayyat.com/Education/"
+  },
+  {
+    "id": "11",
+    "title": "Interior Design",
+    "description": "We collaborate with renowned international designers to craft exclusive furniture and premium décor accessories that make your interior spaces a masterpiece.",
+    "img": "images/portfolio/interior.png",
+    "client": "Interior Design",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2021",
+    "link": "http://kamilhayyat.com/Interior/"
+  },
+  {
+    "id": "12",
+    "title": "Joomla Hoosting",
+    "description": "It is packed with multiple ready-made standard pages for a Service list, Service detail, Portfolio list, Portfolio detail, and more bonus pages plus all Joomla default pages with customized style and layout.",
+    "img": "images/portfolio/hoosting.png",
+    "client": "Joomla Hoosting",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2021",
+    "link": "http://kamilhayyat.com/JoomlaHosting/"
+  },
+  {
+    "id": "13",
+    "title": "Groove App",
+    "description": "Web based applictaion about the the branding of moble application",
+    "img": "images/portfolio/vibo.png",
+    "client": "Groove App",
+    "services": "html",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2021",
+    "link": "http://kamilhayyat.com/grooveApp/"
+  },
+  {
+    "id": "14",
+    "title": "Tattoo",
+    "description": "Tattoo - World Tattoo Gallery is a tattoo website which grouping and connect tattoo art community of skilled and talented artists as well as photos of the most beautiful tattoo models of the world. ",
+    "img": "images/portfolio/wp-tatto.png",
+    "client": "Tattoo",
+    "services": "wp",
+    "category": "bootstrap",
+    "responive": "Desktop",
+    "year": "2021",
+    "link": "http://kamilhayyat.com/tattoos/"
+  }
+]

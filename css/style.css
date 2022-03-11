@@ -1,0 +1,503 @@
+/* =================================================
+
+Template Name:  Personal Portfolio HTML Template
+Author: MouriTheme
+Version: 1.0
+Design and Developed by: MouriTheme
+
+NB: This file contains the styling for the actual theme, this is the file you need to edit to change the look of the theme.
+
+=================================================== */
+
+/*Table of Content
+
+
+    1. Default css
+    2. Preloader css
+    3. Mouse Animation css
+    4. Nav Area css
+    5. Banner Area css
+    6. About Area css
+    7. Services Area css
+    8. Number Area css
+    9. Portfolio Area css
+    10. Testimonial Area css
+    11. Contact Area css
+    12. Brand Area css
+    13. Footer Area css
+
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
+@import url('http://fonts.cdnfonts.com/css/get-show');
+
+
+/*--- 1. Default css starts ---*/
+
+html,
+body {
+  height: 100%;
+}
+.mb-0{
+  margin-bottom: 0 !important;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333333;
+  font-weight: 400;
+}
+button:focus {
+  outline: 0 !important;
+}
+.test{
+  font-family: "Get Show";
+  font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3a3a3a;
+  font-weight: 600;
+}
+
+p {
+  letter-spacing: 0;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+
+.section-header {
+  margin-bottom: 40px;
+  /* text-align: center; */
+}
+
+.section-header h2 {
+  display: inline-block;
+  padding: 5px;
+  /* margin: 5px 0; */
+}
+
+.line-one {
+  height: 3px;
+  width: 140px;
+  background: #45a929;
+  display: block;
+  /* margin: 0 auto; */
+  padding: 0;
+}
+
+/*---Default css ends---*/
+
+/*-------------- 2. Preloader css starts ---------------*/
+
+.loader_bg {
+  position: fixed;
+  z-index: 9999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  border: 0 solid transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  border: 1em solid #45a929;
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loader 2s linear infinite;
+  opacity: 0;
+}
+
+.loader:before {
+  animation-delay: 0.5s;
+}
+
+@keyframes loader {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+/*-------------- Preloader css ends ---------------*/
+
+/*--- 3. Mouse animation starts---*/
+
+@-webkit-keyframes scroll-ani {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+
+@keyframes scroll-ani {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+
+.mouse-scroll {
+  position: absolute;
+  left: 48%;
+  display: inline-block;
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-top: 10%;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.mouse-scroll .mouse {
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 60px;
+  margin: 0 auto 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid #ffffff;
+  border-radius: 23px;
+}
+
+.mouse-scroll .mouse .mouse-movement {
+  position: absolute;
+  display: block;
+  top: 29%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  background: #ffffff;
+  border-radius: 50%;
+  -webkit-animation: scroll-ani 2s linear infinite;
+  animation: scroll-ani 2s linear infinite;
+}
+
+/*---mouse animation ends---*/
+
+/*---------- 4. Nav area css starts -------------*/
+
+.nav-area {
+  height: 65px;
+}
+
+.nav-area.sticky_navigation {
+  background: #ffffff;
+  height: 80px;
+}
+
+.navbar-nav {
+  margin-top: 15px;
+}
+
+.sticky_navigation {
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  -webkit-box-shadow: 0px 3px 4.6px 0.3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3px 4.6px 0.3px rgba(0, 0, 0, 0.25);
+}
+
+.sticky_navigation .main-menu {
+  margin-top: 0;
+}
+
+.sticky_navigation .navbar-brand,
+.sticky_navigation .navbar-brand span {
+  color: #000000;
+}
+
+.sticky_navigation .navbar-brand:hover,
+.sticky_navigation .navbar-brand:focus,
+.sticky_navigation .navbar-brand span {
+  color: #45a929;
+}
+
+.sticky_navigation .nav li a {
+  color: #333333;
+}
+
+.sticky_navigation .nav li.active a {
+  color: #45a929;
+}
+
+.sticky_navigation .nav li.active::before {
+  border-top: 1px solid #45a929;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+.sticky_navigation .nav li.active::after {
+  border-bottom: 1px solid #45a929;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.sticky_navigation .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.main-menu {
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  margin-top: 10px;
+}
+
+.navbar {
+  border: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  padding: 25px 0;
+  text-transform: uppercase;
+  font-size: 25px;
+  display: block;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.logo {
+  padding: 5px;
+  font-size: 32px;
+  letter-spacing: 3px;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar-right li {
+  display: inline-block;
+  float: none;
+}
+
+.navbar-right li a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-right li.active a {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav > li > a:hover,
+.nav > li > a:active,
+.nav > li > a:focus {
+  background: none;
+  color: #45a929;
+}
+
+.navbar-toggle .icon-bar {
+  background: #033d75;
+}
+
+/*---------- Nav area css ends -------------*/
+
+/*----------- 5. Banner area css starts--------------*/
+
+.banner-area {
+  background-image: url(../images/home/home-bg-2.jpg); /*--edit image--*/
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.banner-area::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  content: "";
+}
+
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.banner-table {
+  display: table;
+  margin: 0;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.banner-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.welcome-text .intro h2 {
+  color: #fff;
+  font-size: 85px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.intro h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.ah-headline.clip .ah-words-wrapper::after {
+  background-color: #fff;
+}
+
+.banner-btn {
+  background: #45a929;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-top: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.banner-btn:hover,
+.banner-btn:focus {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.welcome-text h3 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/*---------Banner area css ends--------------*/
+
+
+/*---------services area css ends--------------*/
+
+.services-area{
+ background: #f5fdf6;
+}
+
+
+/*---------services area css ends--------------*/
+
+/*--------------13. Footer area starts -------------*/
+
+.footer-area {
+  background: #232323;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+.footer-area a{
+  color: #45a929;
+}
+
+.section-padding-portfolio {
+  padding: 60px 0 10px 0;
+}
+
+/*--------------- Footer area ends -------------*/
